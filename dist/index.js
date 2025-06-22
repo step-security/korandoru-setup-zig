@@ -126,7 +126,7 @@ async function main() {
         else {
             extension = 'tar.xz';
         }
-        tarballLink = `https://ziglang.org/builds/zig-${platform}-${arch}-${versionSpec}.${extension}`;
+        tarballLink = `https://ziglang.org/builds/zig-${arch}-${platform}-${versionSpec}.${extension}`;
         _actions_core__WEBPACK_IMPORTED_MODULE_0__.info(`Using version ${versionSpec} with link ${tarballLink}`);
     }
     else {

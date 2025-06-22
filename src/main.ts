@@ -122,7 +122,7 @@ async function main(): Promise<void> {
     } else {
       extension = 'tar.xz'
     }
-    tarballLink = `https://ziglang.org/builds/zig-${platform}-${arch}-${versionSpec}.${extension}`
+    tarballLink = `https://ziglang.org/builds/zig-${arch}-${platform}-${versionSpec}.${extension}`
     core.info(`Using version ${versionSpec} with link ${tarballLink}`)
   } else {
     const zigVersionedDistro = (zigDistros as Record<string, any>)[zigVersion]
